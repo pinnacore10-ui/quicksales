@@ -1,4 +1,4 @@
-name: Deploy QuickSales to GitHub Pages
+name: Deploy DateZone to GitHub Pages
 
 on:
   push:
