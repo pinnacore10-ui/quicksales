@@ -1,1 +1,21 @@
-# QuickSales\n\nA responsive storefront starter for QuickSales, designed for GitHub Pages.\n\n## Pages\n- `index.html` — homepage and featured products\n- `shop.html` — product catalogue, search, category filters and sorting\n- `cart.html` — shopping cart with quantity controls\n- `about.html` — about QuickSales\n- `contact.html` — contact form preview\n\n## Publish with GitHub Pages\n1. Open the repository **Settings** on GitHub.\n2. Select **Pages** in the left menu.\n3. Under **Build and deployment**, choose **Deploy from a branch**.\n4. Select branch `main` and folder `/ (root)`, then Save.\n5. Wait for GitHub Pages to publish.\n\nThis repository normally publishes at `https://pinnacore10-ui.github.io/quicksales/`. The address `https://quicksales.github.io` belongs to the GitHub account or organisation named `quicksales`; this repository name cannot claim that address.\n\n## Important before accepting real orders\nThis is a front-end demonstration. The sample catalogue is in `app.js`, the cart is stored in the visitor's browser, and the contact/newsletter forms only show local confirmation. No real payment, order submission, stock control, login, or admin product management is connected yet. Add a secure backend/database and server-side payment integration before taking customer payments. Never put payment secret keys in browser JavaScript.\n\nProduct photos are demonstration images loaded from Unsplash. Replace them with images you own or are licensed to use.\n
+# DateZone — dating platform prototype
+
+DateZone is an adults-only (18+) dating platform concept. This repository has been redesigned from the former QuickSales storefront into a responsive dating-site interface.
+
+## Current interface
+- Discover member-style profiles and filter by city or interests
+- Like profiles and review your likes
+- Preview matches and open a conversation screen
+- Edit a sample profile form
+- Safety centre with dating safety guidance
+- Responsive desktop and mobile navigation
+
+## Important: prototype, not yet a live dating service
+This version is a front-end prototype. Sample profiles and photos are illustrative. Likes, sample matches and messages are held only in the current browser session. Messages are NOT delivered to another person. There is no real registration, login, identity/age verification, persistent database, photo upload, moderation, blocking/reporting workflow, or private multi-user chat yet.
+
+Before inviting members, connect a secure backend such as Supabase: Auth for registration and email verification; PostgreSQL for profiles, preferences, likes, matches, blocks, reports and messages; Row Level Security so only matched members can read and send each other's messages; private Storage for photos; realtime message delivery; rate limits and moderation. DateZone is intended for adults aged 18+ only. Never put service-role keys or secrets in browser JavaScript.
+
+## Publish
+Keep the current repository name for now. Configure GitHub Pages in Settings → Pages and check the URL shown there. The repository address can be changed later.
+
+Files: index.html (page shell), styles.css (design), app.js (prototype interactions).
